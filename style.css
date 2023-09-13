@@ -4,25 +4,61 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0px;
+  background-color: rgb(34, 34, 34);
+}
+
+nav {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 5% 95%;
+}
+
+nav img {
+  width: 70px;
+  height: 80px;
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -o-border-radius: 70px;
+}
+
+.linkek {
+  display: flex;
+  align-items: center;
+}
+
+.linkek a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 20px;
 }
 
 .oldal {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%; 
+  grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-.radnoti, .blackjack {
-  display: flex;
+.card {
+  display: grid;
   justify-content: center;
-  align-items: center;
+  grid-template-rows: 70% 30%;
+  text-align: center;
 }
 
-a {
-  margin: auto;
+.oldal a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 img {
   width: 200px;
   height: 200px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
