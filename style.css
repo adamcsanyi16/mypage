@@ -4,7 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0px;
-  background-color: rgb(34, 34, 34);
+  background-image: url("https://i.ibb.co/8NRdZT1/output-onlinepngtools.png");
 }
 
 nav {
@@ -12,6 +12,7 @@ nav {
   display: grid;
   grid-template-columns: 5% 95%;
 }
+
 
 nav img {
   width: 70px;
@@ -26,6 +27,11 @@ nav img {
 .linkek {
   display: flex;
   align-items: center;
+}
+
+.linkek :nth-child(1) {
+  font-size: 30px;
+  margin-left: 40px;
 }
 
 .linkek a {
@@ -53,12 +59,34 @@ nav img {
   color: whitesmoke;
 }
 
-img {
+.oldal img {
   width: 200px;
   height: 200px;
+  border: thin solid whitesmoke;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.oldal img:hover {
+  opacity: 0.5;
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
+
+#radnoti {
+  width: 161px;
+  height: 180px;
+  padding: 10px;
+  border: thin solid whitesmoke;
 }
